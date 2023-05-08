@@ -1,0 +1,13 @@
+name: ZIP and Distribute
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: ZIP Stuff
+      run: ok
+    - name: Upload ZIPs to releases
+      run: ok
