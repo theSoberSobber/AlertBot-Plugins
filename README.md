@@ -1,0 +1,7 @@
+- crawl plugins folder
+- build a json
+- send it from express
+- make vercel auto deploy on every commit
+- make plugins have a yaml file for describing what event they wanna subscribe to
+- make the plugins have access to platfrom APIs through an interfacer
+- make the interfacer(s) types public on DefinitelyTyped
